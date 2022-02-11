@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Root id="action1" scope="repeated" showName="中控:讨论厅白天状态">
+
+    <!-- 讨论厅关灯 -->
+    <branch type="FollowSequence">
+        <leaf type="PrintLeaf">
+            <config key="value" val="hello,action tree!"/>
+        </leaf>
+        <leaf type="BooleanLeaf">
+            <config key="value" val="false"/>
+        </leaf>
+        <leaf type="PrintLeaf">
+            <config key="value" val="hello,everyone!"/>
+        </leaf>
+    </branch>
+
+</Root>
